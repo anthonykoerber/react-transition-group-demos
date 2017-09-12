@@ -49,7 +49,7 @@ class FadeInTransitionDemo extends Component {
         >
           {state => (
             <div style={{ ...defaultStyle, ...transtionStyles[state] }}>
-              I'm A Fade-In Transition
+              I\'m A Fade-In Transition
             </div>
           )}
         </Transition>
